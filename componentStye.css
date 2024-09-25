@@ -1,0 +1,111 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; /* Adjust as needed */
+}
+
+.py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.bg-gray-900 {
+    background-color: #1a202c; /* Dark gray background */
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-base {
+    font-size: 1rem; /* Base font size */
+}
+
+.text-teal-600 {
+    color: #38b2a5; /* Teal color */
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.tracking-wide {
+    letter-spacing: 0.05em; /* Adjust for tracking */
+}
+
+.mt-2 {
+    margin-top: 0.5rem;
+}
+
+.text-3xl {
+    font-size: 1.875rem; /* 3xl size */
+}
+
+.leading-8 {
+    line-height: 2.25rem; /* Adjust line height */
+}
+
+.font-extrabold {
+    font-weight: 800; /* Extra bold weight */
+}
+
+.tracking-tight {
+    letter-spacing: -0.015em; /* Tight tracking */
+}
+
+.sm\:text-4xl {
+    font-size: 2.25rem; /* 4xl size for small screens */
+}
+
+.mt-10 {
+    margin-top: 2.5rem; /* Adjust margin */
+}
+
+.mt-20 {
+    margin-top: 5rem; /* Adjust margin */
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.hover-border-gradient {
+    position: relative;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: transparent;
+    border-radius: 9999px; /* Rounded edges */
+    transition: color 0.3s ease;
+}
+
+.hover-border-gradient::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 9999px;
+    background: linear-gradient(90deg, rgba(56, 178, 165, 0), rgba(56, 178, 165, 1), rgba(56, 178, 165, 0));
+    transition: transform 0.5s ease;
+    z-index: -1;
+    transform: scale(0);
+}
+
+.hover-border-gradient:hover {
+    color: #38b2a5; /* Teal color on hover */
+}
+
+.hover-border-gradient:hover::before {
+    transform: scale(1);
+}

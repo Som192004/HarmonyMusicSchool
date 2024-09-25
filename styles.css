@@ -1,0 +1,95 @@
+
+
+@keyframes fadeInSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.aurora-background-demo {
+  animation: fadeInSlideUp 0.8s ease-in-out 0.3s forwards;
+}
+
+.text-3xl {
+  font-size: 1.875rem; /* Adjust as needed */
+}
+
+.md\:text-7xl {
+  font-size: 4.5rem; /* Adjust as needed */
+}
+
+.font-extralight {
+  font-weight: 200; /* Adjust as needed */
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.dark\:bg-white {
+  background-color: white; /* Adjust for dark mode */
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.w-fit {
+  width: fit-content;
+}
+
+.text-white {
+  color: white;
+}
+
+.dark\:text-black {
+  color: black; /* Adjust for dark mode */
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.gap-4 {
+  gap: 1rem; /* Adjust as needed */
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.relative {
+  position: relative;
+}
+
+.text-center {
+  text-align: center;
+}

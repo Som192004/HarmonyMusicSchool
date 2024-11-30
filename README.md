@@ -13,9 +13,8 @@ Have questions or need support? Reach out to us through the Contact Us page for 
 
 Technologies Used 🛠️
 Next.js: Server-side rendering and static site generation for fast and efficient web performance.
-React: Building interactive and dynamic user interfaces.
-Node.js: Backend support for API handling.
-CSS/Styled Components: Ensuring a visually appealing and responsive design.
+CSS and Tailwind: Ensuring a visually appealing and responsive design.
+
 Getting Started 🚀
 Prerequisites
 Make sure you have the following installed:
@@ -25,24 +24,23 @@ npm or yarn
 Installation
 Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/your-username/harmony-music-school.git
+open bash and type : 
+git clone https://github.com/Som192004/HarmonyMusicSchool.git
+(https://github.com/Som192004/HarmonyMusicSchool.git)
 cd harmony-music-school
-Install dependencies:
 
-bash
-Copy code
+Install dependencies:
+Copy code : 
 npm install
 # or
 yarn install
-Run the development server:
 
-bash
-Copy code
+Run the development server:
+Copy code : 
 npm run dev
 # or
 yarn dev
+
 Open http://localhost:3000 to view the app in your browser.
 
 Contributing 🤝
